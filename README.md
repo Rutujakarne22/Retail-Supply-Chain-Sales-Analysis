@@ -6,7 +6,7 @@ project aims to analyze Retail sales trends, customer behavior, and shipping per
 ,processing,SQL for storing data and PowerBi for creating interactive dashboards.
 
 
-![Architecture Diagram](Architecture Diagram.png)
+![Architecture](Architecture.png)
 
 
 
@@ -47,7 +47,7 @@ Creating the new columns: 1) Delivery time  2) Shipping status  3) Revenue
 
 **6.Load Data into SQL Server**
 
-Set Up Connections: Connect to SQL Server using Pymysql and load the cleaned data into database. Table Creation: Create and insert the data into SQL Server using pymysql.
+Set Up Connections: Connect to SQL Server using Pyodbc and load the cleaned data into database. Table Creation: Create and insert the data into SQL Server using pyodbc.
 
 
 **7.Data Visualization in Power BI**
@@ -73,7 +73,7 @@ Python 3
 
 Jupyter notebook
 
-Python Libraries: Pandas, NumPy, Matplotlib, Seaborn, Pymysql
+Python Libraries: Pandas, NumPy, Matplotlib, Seaborn, Pyodbc
 
 SQL Databases:SQL Server Management Studio (SSMS)
 
