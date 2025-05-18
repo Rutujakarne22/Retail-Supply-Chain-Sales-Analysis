@@ -22,6 +22,7 @@ project aims to analyze Retail sales trends, customer behavior, and shipping per
 
 ## Project Steps
 
+---
 **1. Set Up the Environment**
 
 **Tools Used**:
@@ -42,9 +43,11 @@ Read the data into a Pandas DataFrame for initial analysis and transformations
 Use functions like .info(), and .head() to get a quick overview of the data structure .
 
 
+
 **4.Data Cleaning**
 
 Handle Missing Values:  fill values where in some columns where there is missing.
+
 
 
 **5.Feature Engineering**
@@ -57,10 +60,12 @@ Creating the new columns:
 - Revenue
 
 
+
 **6.Load Data into SQL Server**
 
 - Set Up Connections: Connect to SQL Server using Pyodbc and load the cleaned data into database.
 - Table Creation: Create and insert the data into SQL Server using pyodbc.
+
 
 
 **7.Data Visualization in Power BI**
@@ -83,7 +88,7 @@ Connected SQL Server to Power BI for dynamic dashboards.
 
 ---
 
-## 8.Requirements
+## Requirements
 
 - Python 3
 - Jupyter notebook
@@ -94,7 +99,7 @@ Connected SQL Server to Power BI for dynamic dashboards.
 
 ---
 
-## 9.Key Insights
+## Key Insights
 
 1) Sales Performance: California, New York, and Texas contribute the highest sales, while November & December see peak demand.
  
